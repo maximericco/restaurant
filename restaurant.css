@@ -1,0 +1,297 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+/**********************NAVBAR**************/
+header{
+    width: 100%;
+    float:left;
+    position:relative;
+    z-index:2;
+    position:fixed;
+}
+.navbar{
+  background:black;
+  height:70px;
+  width:100%;
+}
+.navbar-liste{
+  margin-left:230px;
+  margin-top:-34px;
+  width:auto;
+  display:flex;
+  justify-content:center;
+  font-size:18px;
+}
+.navbar img{
+  width:280px;
+  margin-top: 13px;
+  margin-left: 30px;
+}
+#navbar{
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+    text-align: center;
+}
+#navbar li {
+    display: inline-block;
+}
+#navbar a {
+    text-decoration: none;
+  color:white;
+    margin-left:30px;
+}
+#navbar a:hover{
+  color:red;
+  transition:0.4s;
+}
+/**********CONTAINER*****************************/
+.container img{
+    width:100%;
+    height:647px;
+}
+.container .text {
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position:absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: -350px;
+    color: #fff;
+    width: 40%;
+    font-size:17px;
+    border-radius:5px;
+}
+/*************BLOCK-TEXT "welcom"*******************/
+.block-text{
+  text-align: center;
+  margin-top: 60px;
+  display:flex;
+  flex-direction:column;
+}
+.block-text h1{
+  font-family: georgia
+}
+.block-text p{
+  text-align:left;
+  line-height:35px;
+  font-size:19px;
+  width:60%;
+  margin:auto;
+  font-family: georgia;
+  color:#1F2A36;
+  font-style: italic;
+}
+/***************CONTAINER 2 ********************/
+.container-2 img{
+    position: relative;
+    width:100%;
+    height:584px;
+    margin-top: 20px;
+}
+.container-2 .text-2{
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: -355px;
+    color: #fff;
+    width: 40%;
+    font-size:17px;
+    border-radius:5px;
+}
+.container-2{
+  margin-top: 80px;
+}
+/**************BLOCK-TEXT-2 "text+menu"***************/
+.block-text-2,.block-text-3{
+  text-align: center;
+  margin-top: 80px;
+}
+.block-text-2 p{
+  text-align:center;
+  line-height:40px;
+  font-size:27px;
+  width:70%;
+  margin:auto;
+  font-style: italic;
+  color:#1F2A36;
+  font-family: georgia;
+}
+.ligne{
+  width:50%;
+  margin-top: 80px;
+}
+.ligne-2{
+  width:50%;
+  margin-top:130px;
+}
+.block-text-3 p{
+font-size:40px;
+}
+/*********CARD******************************/
+.card-3{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width:20%;
+  margin-top: 50px;
+  border-radius:10px;
+  margin: 40px;
+}
+.card-3 img{
+  height:200px;
+  width:100%;
+}
+.card-flex{
+  display:flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+.card-flex h1{
+  font-size:24px;
+  margin-top: 20px;
+  font-family: georgia
+}
+.card-flex p{
+  font-size:18px;
+  line-height:25px;
+  margin-top: 10px;
+  color:#1F2A36;
+}
+.card-flex button{
+  margin-top: 15px;
+  background:#1F2A36;
+  margin-top: 15px;
+  width:35%;
+  text-align: center;
+  color:#fff;
+  border-radius:5px;
+  font-size:18px
+}
+
+.btn-card{
+  display:flex;
+  justify-content:center;
+}
+.btn-card button{
+  width:200px;
+  height:50px;
+  background:#1F2A36;
+  color:#fff;
+  font-size:20px;
+  font-family:arial;
+  border-radius:10px;
+  margin-top: 50px;
+}
+/****Ce que les gens disent**************/
+.block-div{
+  display:flex;
+  justify-content:center;
+  margin-top: 190px;
+}
+.block-div img{
+  width:100%;
+  height: 100%;
+}
+.block-div h1{
+  font-size:30px;
+}
+.block-div p {
+  text-align:left;
+  font-size: 20px;
+  width:80%;
+  line-height: 25px
+}
+.block-div h4{
+  margin-top: 20px;
+  font-size: 17px;
+}
+.div-img{
+  width:100%;
+  margin-top: -50px;
+}
+.div-text{
+  background:black;
+  width:100%;
+  text-align: center;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  color:#fff;
+  align-items:center;
+  margin-top: -50px;
+}
+/************CONTAINER-3 "adresse,reservation"**********************/
+.container-3 img{
+    position: relative;
+    width:100%;
+    height:600px;
+    margin-top: 20px;
+}
+.container-3 .text-3{
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: -545px; ;
+    color: #fff;
+    width: 70%;
+    font-size:17px;
+    border-radius:5px;
+}
+.container-3{
+  margin-top: 100px;
+}
+.container-3 h1{
+  margin-top: 40px;
+}
+.flex h1{
+  font-size:17px;
+  margin-top: 30px;
+}
+.flex p{
+  color:gold;
+}
+.flex{
+  margin-top: 50px;
+  height:340px;
+}
+/******FOOTER**************************************/
+.copyright{
+  color:#fff;
+  background:black;
+  height:80px;
+  display:flex;
+  justify-content:center;
+  margin-top: 120px;
+  text-align: center;
+  align-items: center;
+}
+.p-meal{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 80px;
+  font-style: italic;
+  font-family: georgia;
+  color: #1F2A36;
+}
+hr{
+  width:50px;
+  color:red;
+}
+
