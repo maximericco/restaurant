@@ -318,8 +318,13 @@ font-size:40px;
   background:black
 }
 hr{
+<<<<<<< HEAD
   width:70px;
 
+=======
+  width:50px;
+  color:red;
+>>>>>>> d95faa90cd27aa4f460098f7ff8a66d69249da59
 }
 /*******Media Queries**************************/
 
