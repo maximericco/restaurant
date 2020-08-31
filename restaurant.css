@@ -63,11 +63,11 @@ header{
     width: 50%;
     font-size:17px;
     border-radius:5px;
-    color:black;
+    color:#1F2A36;
     font-style:italic;
 }
 .img-titre-1{
-  opacity:0.5
+  opacity:0.6;
 }
 .text .img-titre-2{
   width:85%;
@@ -335,11 +335,11 @@ hr{
     flex-direction:column;
   }
   .container .text{
-    margin-top: -380px;
+    margin-top: -360px;
     width:auto;
   }
   .container img{
-    height:672px;
+    height:630px;
   }
   .img-logo{
     display:none;
