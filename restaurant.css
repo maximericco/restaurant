@@ -335,11 +335,11 @@ hr{
     flex-direction:column;
   }
   .container .text{
-    margin-top: -360px;
+    margin-top: -380px;
     width:auto;
   }
   .container img{
-    height:630px;
+    height:640px;
   }
   .img-logo{
     display:none;
