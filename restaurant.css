@@ -293,7 +293,13 @@ font-size:40px;
 hr{
   width:50px;
   color:red;
+<<<<<<< HEAD
 }
+=======
+}  
+/*******Media Queries**************************/
+
+>>>>>>> 27b7e2e01ef524015f1f6a5ae65481fdeca79d68
 @media screen and (max-width: 768px){
   .card-flex{
     flex-direction:column;
