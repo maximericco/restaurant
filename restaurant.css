@@ -248,7 +248,7 @@ font-size:40px;
     margin: 0 auto;
     left: 0;
     right: 0;
-    margin-top: -545px; ;
+    margin-top: -545px;
     color: #fff;
     width: 70%;
     font-size:17px;
@@ -293,5 +293,33 @@ font-size:40px;
 hr{
   width:50px;
   color:red;
-}
+}  
+/*******Media Queries**************************/
 
+@media screen and (max-width: 768px){
+  .card-flex{
+    flex-direction:column;
+    align-items: center;
+ }
+  .card-3{
+    width:300px;
+  }
+  .block-div{
+    flex-direction:column;
+  }
+  .container .text{
+    margin-top: -380px;
+    width:auto;
+  }
+  .block-text p{
+    width:300px;
+  }
+  .container-2 .text-2{
+    margin-top: -360px;
+    width:auto;
+  }
+  .container-3 .text-3{
+    margin-top: -550px;
+    width:auto;
+  }
+}
