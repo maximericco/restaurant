@@ -422,19 +422,11 @@ hr{
     flex-direction:column;
   }
   .container .text{
-<<<<<<< HEAD
     margin-top: -340px;
     width:auto;
   }
   .container img{
     height:650px;
-=======
-    margin-top: -380px;
-    width:auto;
-  }
-  .container img{
-    height:640px;
->>>>>>> b86437587f388afc2ad75b668263a232c18101f2
   }
   .img-logo{
     display:none;
@@ -450,10 +442,5 @@ hr{
     margin-top: -550px;
     width:auto;
   }
+  
 }
-
-
-
-
-
-
