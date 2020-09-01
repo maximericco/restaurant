@@ -40,8 +40,7 @@ a {
   background:#000;
   font-size:18px;
   font-family:arial;
-  width:100px;
-  margin: auto
+  width:50px;
 }
 .menu a:hover{
   color:red;
@@ -115,7 +114,7 @@ a {
     height:650px;
 }
 .container{
-  background:#002
+  background:#002;
 }
 .container .text {
     position:absolute;
@@ -125,14 +124,15 @@ a {
     right: 0;
     margin-top: -450px;
     width: 50%;
-    font-size:16px;
+    font-size:17px;
     border-radius:5px;
     color:#fff;
-    font-style:italic;
     letter-spacing:1px;
+    font-family: 'Copperplate Gothic Light';
 }
 .img-titre-1{
   opacity:45%;
+  Brush Script MT
 }
 .text .img-titre-2{
   width:25%;
@@ -147,11 +147,9 @@ a {
   margin-top: 80px;
 }
 .img-logo img{
-  width:42%;
-  height:auto;
-}
-.img-3{
-  margin-top: 25px;
+  width:32%;
+  height:120px;
+  margin:20px;
 }
 /*************BLOCK-TEXT "welcom"*******************/
 .block-text{
@@ -248,7 +246,9 @@ font-size:40px;
 .card-flex h1{
   font-size:24px;
   margin-top: 20px;
-  font-family: georgia
+  font-family: arial;
+  text-decoration: underline;
+  color: #002F2F;
 }
 .card-flex p{
   font-size:18px;
@@ -422,19 +422,11 @@ hr{
     flex-direction:column;
   }
   .container .text{
-<<<<<<< HEAD
-    margin-top: -340px;
-    width:auto;
-  }
-  .container img{
-    height:650px;
-=======
     margin-top: -380px;
     width:auto;
   }
   .container img{
-    height:640px;
->>>>>>> b86437587f388afc2ad75b668263a232c18101f2
+    height:630px;
   }
   .img-logo{
     display:none;
@@ -450,6 +442,7 @@ hr{
     margin-top: -550px;
     width:auto;
   }
+  
 }
 
 
