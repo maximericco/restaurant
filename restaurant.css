@@ -426,7 +426,11 @@ hr{
     width:auto;
   }
   .container img{
+<<<<<<< HEAD
     height:630px;
+=======
+    height:610px;
+>>>>>>> 0c7f2ffb939cfe3cae72dc6986fe0a6af27c96ca
   }
   .img-logo{
     display:none;
