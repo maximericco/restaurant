@@ -40,8 +40,7 @@ a {
   background:#000;
   font-size:18px;
   font-family:arial;
-  width:100px;
-  margin: auto
+  width:50px;
 }
 .menu a:hover{
   color:red;
@@ -422,7 +421,7 @@ hr{
     flex-direction:column;
   }
   .container .text{
-    margin-top: -340px;
+    margin-top: -370px;
     width:auto;
   }
   .container img{
@@ -444,3 +443,9 @@ hr{
   }
   
 }
+
+
+
+
+
+
