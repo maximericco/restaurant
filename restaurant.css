@@ -402,10 +402,10 @@ hr{
     margin-top: -550px;
     width:auto;
   }
-  
-  
-  
-  
+  #showcase{
+      height:100vh;
+  }
+    
 }
 
 
