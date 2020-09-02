@@ -23,7 +23,7 @@ a {
 }
 .header li a {
   display: block;
-  padding: 20px 20px;
+  padding: 15px 10px;
   text-decoration: none;
 }
 .header .logo{
@@ -38,7 +38,7 @@ a {
 .menu a{
   color:#fff;
   background:#000;
-  font-size:18px;
+  font-size:17px;
   font-family:arial;
   width:50px;
 }
@@ -46,7 +46,7 @@ a {
   color:red;
 }
 .menu li{
-  margin-top: 11px;
+  margin-top: 10px;
   background:#000;
 }
 .header .menu {
@@ -235,7 +235,6 @@ font-size:40px;
   display:flex;
   justify-content: center;
   margin-top: 20px;
-
 }
 .card-flex h1{
   font-size:24px;
@@ -248,30 +247,35 @@ font-size:40px;
   margin-top: 10px;
   color:#1F2A36;
 }
-.card-flex button{
+.card-flex a{
+  background:#002;
   margin-top: 15px;
-  background:#1F2A36;
-  margin-top: 15px;
-  width:35%;
+  width:30%;
+  text-decoration:none;
   text-align: center;
   color:#fff;
   border-radius:5px;
-  font-size:18px
+  font-size:18px;
+  padding: 10px 9px 10px 9px;
 }
-
 .btn-card{
   display:flex;
   justify-content:center;
 }
-.btn-card button{
-  width:200px;
-  height:50px;
-  background:#1F2A36;
+.btn-card a{
+  width:15%;
+  background:#001;
   color:#fff;
   font-size:20px;
   font-family:arial;
-  border-radius:10px;
   margin-top: 50px;
+  padding: 10px 9px 10px 9px;
+  text-decoration:none;
+  text-align: center;
+  border-radius:5px
+}
+.card-flex a:hover,.btn-card a:hover{
+  background:#1F2A36;
 }
 /****Ce que les gens disent**************/
 .block-div{
@@ -376,6 +380,24 @@ font-size:40px;
 hr{
   width:60px;
 }
+/*****Media Q***********************/
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px ;
+    margin-left: 40px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 768px){
   
@@ -403,6 +425,7 @@ hr{
     margin-top: -550px;
   }
 
+    
 }
 
 
