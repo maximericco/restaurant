@@ -114,6 +114,7 @@ a {
   height:100vh;
   background-position:center;
   background-size:cover;
+  background-attachment: fixed;
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -124,7 +125,7 @@ a {
 #showcase .text {
     width: 100%;
     font-size:20px;
-    color:#fff;
+    color:#000;
     font-style:italic;
     letter-spacing:1px;
     margin-top: 15%;
