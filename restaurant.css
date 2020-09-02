@@ -408,6 +408,9 @@ hr{
   .card-3{
     width:300px;
   }
+  .btn-card a{
+    width:40%;
+  }
   .block-div{
     flex-direction:column;
   }
